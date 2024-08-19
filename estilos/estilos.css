@@ -841,7 +841,18 @@ footer {
   }
 
 
+/* Inicio marcas */
+.slider .slide-track {
+  display: flex;
+  animation:  linear infinite;
+  -webkit-animation: scroll 25s linear infinite;
+  width: calc(200px* 14);
+  gap: 100px;}
 
+  .slider .slide img {
+    width: 150px;
+}
+/* Fin marcas */
   .containerRazone{
     margin-bottom: 35px;
     max-width: 350px !important;
@@ -849,9 +860,9 @@ footer {
   }
 
   .containerRazones {
-    padding-top: 100px;
-    margin-top: 100px;
-    margin-bottom: 300px;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
   }
   .containerRazon{
     margin-left: 0px !important;
