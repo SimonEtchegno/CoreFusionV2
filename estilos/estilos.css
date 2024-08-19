@@ -779,6 +779,9 @@ footer {
     top: 150px !important;
   }
 
+  .containerParallaxAbout{
+    padding-top: 10px ;
+  }
   .home {
     background-image: url(../recursos/parallax2.jpg);
     height: 900px;
@@ -841,6 +844,7 @@ footer {
 
   .containerRazone{
     margin-bottom: 35px;
+    max-width: 350px !important;
  
   }
 
