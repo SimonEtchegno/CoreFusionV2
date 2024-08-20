@@ -733,6 +733,7 @@ footer {
   .navFijo {
     height: 100%;
     padding-bottom: 30px;
+    background-color: transparent;
   }
 
   .nav-link {
@@ -743,6 +744,7 @@ footer {
 
   .navbar-toggler{
     border: #333333 solid 2px !important;
+    background-color: rgba(255, 255, 255, 0.548);
   }
 
   .navbar-toggler:hover {
@@ -788,10 +790,11 @@ footer {
   }
   .home {
     background-image: url(../recursos/parallax-inicio.png);
-    height: 1100px;
+    height: 800px;
     background-size:auto;
     background-repeat: no-repeat;
-    width: 100% !important;
+    width: 100% !important;       
+     background-position-x: -350px;
   }
   
   
