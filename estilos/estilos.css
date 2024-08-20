@@ -34,6 +34,12 @@ body {
   background-color: transparent;
 }
 
+
+#navbarNavAltMarkup{
+  position: relative;
+  top: 10px;
+}
+
 .navbar-nav {
   margin-left: auto;
 }
@@ -81,8 +87,13 @@ body {
   height: 100px;
 }
 
+
+.logo1 img{
+  height: 70px;
+}
+
 .home {
-  background-image: url(../recursos/parallax3.jpg);
+  background-image: url(../recursos/parallax3_v2.png);
   height: 1100px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -795,7 +806,7 @@ footer {
   
   }
   .home {
-    background-image: url(../recursos/parallax3.jpg);
+    background-image: url(../recursos/parallax3_v2.png);
     height: 800px;
     background-size: cover;
     background-repeat: no-repeat;
