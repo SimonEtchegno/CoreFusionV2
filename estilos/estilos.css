@@ -291,10 +291,6 @@ button {
   cursor: pointer;
 }
 
-button:hover {
-  background-color: #0056b3;
-}
-
 .tituloRazon {
   font-size: 30px;
   font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -794,17 +790,18 @@ footer {
     background-color: cadetblue !important;
   }
 
-  .containertextosParallax{
-    position: relative;
-    top: 150px !important;
-  }
-
-  .containerParallaxAbout{
-    padding-top: 10px ;
-    margin-top: 50px;
-    height: 500px;
   
-  }
+
+  .containerParallaxAbout {
+    display: flex;
+    padding-top: 10px;
+    /* margin-top: 250px; */
+    /* height: 500px; */
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: column;
+}
   .home {
     background-image: url(../recursos/parallax3_v2.png);
     background-size: cover;
@@ -826,10 +823,10 @@ footer {
   .seccionImg {
     width: 100% !important;
   }
-  .imgSection {
-    display: none;
-  }
-
+.imgSection{
+  width: 400px;
+  margin-bottom: 100px;
+}
 .containerFotoSection{
   display: flex;
   justify-content: center;
@@ -1002,6 +999,11 @@ footer {
     Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
+
+.imgSection {
+  width: 319px;
+  margin-bottom: 100px;
+}
 }
 
 @media only screen and (min-width: 1000px) and (max-width: 1400px)  {
