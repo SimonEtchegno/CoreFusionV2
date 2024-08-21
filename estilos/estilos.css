@@ -807,7 +807,6 @@ footer {
   }
   .home {
     background-image: url(../recursos/parallax3_v2.png);
-    height: 800px;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100% !important;
@@ -839,15 +838,28 @@ footer {
   left: 0;
 }
 
+.tituloService1 {
+  font-size: 20px;
+  color: #fd7301;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
 .containerSoluciones{
  flex: none !important;
  width: 80% !important;
+
 }
 
 .containerSolutions{
   height: 100% !important;
   padding-top: 50px;
-  margin-top: 20px;
+  margin-top: 80px;
+
+}
+
+.tituloSolutions {
+  margin-bottom: 20px;
 }
   .body {
     overflow-x: hidden;
@@ -858,7 +870,11 @@ footer {
   margin-bottom: 60px;
 }
 
-
+.parrafoSolutions {
+  font-size: 16px;
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  color: cadetblue;
+}
 
 .tituloPrincipal--section{
   margin-bottom: 20px;
@@ -889,7 +905,7 @@ footer {
   .containerRazones {
     padding-top: 10px;
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
   }
   .containerRazon{
     margin-left: 0px !important;
@@ -914,6 +930,15 @@ footer {
   .c {
     position: relative;
     right: 40px;
+  }
+
+  .titleContacto {
+    font-size: 30px;
+    padding-top: 50px;
+    margin-bottom: 20px;
+    color: cadetblue;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   }
 
   .contactoNumero {
@@ -952,7 +977,7 @@ footer {
 }
 
 
-@media only screen and (min-width: 300px) and (max-width: 700px)  {
+@media only screen and (min-width: 200px) and (max-width: 700px)  {
   .containerRazone {
       width: 50% !important;
       flex-shrink: 1 !important;
@@ -961,6 +986,22 @@ footer {
 .containerSoluciones ul{
   padding-left: 0% !important;
 }
+
+.logo1 img {
+  width: 100%;
+  height: 60px;
+}
+
+
+.titleContacto {
+  font-size: 30px;
+  padding-top: 50px;
+  margin-bottom: 20px;
+  color: cadetblue;
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
 }
 
 @media only screen and (min-width: 1000px) and (max-width: 1400px)  {
@@ -1001,6 +1042,8 @@ footer {
 .containerSoluciones{
   width: 40% !;
 }
+
+
 }
 
 /* Responsive design services*/
@@ -1008,6 +1051,8 @@ footer {
   .containerRazone {
       margin-bottom: 20px;
   }
+
+
 }
 
 
