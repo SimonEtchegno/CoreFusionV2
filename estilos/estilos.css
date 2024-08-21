@@ -807,7 +807,7 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100% !important;
-    background-position-x: -325px;
+    background-position-x: -513px !important;
 
   }
   
@@ -975,6 +975,11 @@ footer {
 
 
 @media only screen and (min-width: 200px) and (max-width: 700px)  {
+
+  .home{
+    background-position-x: -513px !important;
+  }
+  }
   .containerRazone {
       width: 50% !important;
       flex-shrink: 1 !important;
