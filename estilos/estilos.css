@@ -850,7 +850,6 @@ footer {
 
 .tituloService1 {
   font-size: 20px;
-  color: #fd7301;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 20px;
@@ -1007,6 +1006,10 @@ footer {
 
 .containerSoluciones ul{
   padding-left: 0% !important;
+}
+.containerSoluciones {
+  flex: none !important;
+  width: 70% !important;
 }
 
 .logo1 img {
