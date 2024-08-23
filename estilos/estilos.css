@@ -100,7 +100,10 @@ body {
   width: 100% !important;
 }
 
-
+.imgSection {
+  width: 500px ;
+  margin-bottom: 100px;
+}
 .containertextosParallax {
   position: relative;
   top: 250px;
@@ -824,7 +827,7 @@ footer {
     width: 100% !important;
   }
 .imgSection{
-  width: 400px;
+  width: 400px ;
   margin-bottom: 100px;
 }
 .containerFotoSection{
@@ -979,7 +982,7 @@ footer {
   .home{
     background-position-x: -513px !important;
   }
-  }
+
   .containerRazone {
       width: 50% !important;
       flex-shrink: 1 !important;
@@ -1009,8 +1012,8 @@ footer {
   width: 319px;
   margin-bottom: 100px;
 }
-}
 
+}
 @media only screen and (min-width: 1000px) and (max-width: 1400px)  {
 
   .linkNav{
