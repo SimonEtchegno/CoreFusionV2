@@ -184,6 +184,8 @@ body {
    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; 
     width: 735px !important;
+    position: relative;
+    bottom: 50px !important;
 }
 
 .containerFotoSection{
@@ -379,7 +381,7 @@ button {
 }
 
 .containerRazone {
-  width: 30% !important;
+  max-width: 450px !important;
   flex: 1 1 calc(33% - 40px);
   margin: 10px;
   padding-top: 40px;
@@ -489,6 +491,11 @@ hr {
   Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   margin-top: 50px;
 }
+
+.container-ul{
+  display: flex;
+  justify-content: center;
+}
 ul {
   list-style: disc;
 }
@@ -531,12 +538,6 @@ ul {
   margin: 20px;
 }
 
-.containerSoluciones ul {
-  list-style-position: inside; /* Hace que los puntos aparezcan dentro del contenedor */
-  padding: 0;
-  margin: 0;
-  padding-left: 90px !important;
-}
 
 .containerSoluciones ul li {
   text-align: left; /* Alinea cada ítem a la izquierda */
@@ -748,6 +749,9 @@ footer {
 
 /*MEDIA MOBILE*/
 
+
+
+
 @media (max-width: 997px) {
   .navFijo {
     height: 100%;
@@ -853,7 +857,7 @@ footer {
 }
 .containerSoluciones{
  flex: none !important;
- width: 80% !important;
+ width: 60% !important;
 
 }
 
@@ -884,6 +888,13 @@ footer {
 
 .tituloPrincipal--section{
   margin-bottom: 20px;
+}
+
+.tituloSection {
+  margin-bottom: 100px !important;
+  max-width: 600px; /* Ajusta este valor según tus necesidades */
+  margin: 0 auto; /* Centra el texto */
+  text-align: center;
 }
 
   .textoParallaxIndex {
@@ -1004,6 +1015,12 @@ footer {
 }
 
 
+.tituloSection {
+  margin-bottom: 100px !important;
+  max-width: 600px; /* Ajusta este valor según tus necesidades */
+  margin: 0 auto; /* Centra el texto */
+  text-align: center;
+}
 .titleContacto {
   font-size: 30px;
   padding-top: 50px;
@@ -1015,12 +1032,13 @@ footer {
 
 
 .imgSection {
-  width: 319px;
+  width: 300px;
   margin-bottom: 100px;
+  margin-top: 100px;
 }
 
 }
-@media only screen and (min-width: 1000px) and (max-width: 1400px)  {
+@media only screen and (min-width: 992px) and (max-width: 1400px)  {
 
   .linkNav{
    
@@ -1032,7 +1050,21 @@ footer {
     display: flex;
     justify-content:start;
   }
- 
+
+.containerSolutions{
+  height: 100% !important;
+}
+
+  .containerSoluciones ul {
+    list-style-position: inside;
+    padding: 0;
+    margin: 0;
+    padding-left: 0px !important;
+}
+ .imgSection{
+  margin-top: 70px;
+  width: 35%;
+ }
   .containerFotoSection {
     width: 100% !important;
     display: flex !important;
@@ -1045,10 +1077,15 @@ footer {
 .containerParallaxAbout{
   padding-top: 20px;
   text-align: center;
+  height: 100% !important;
 }
 
+
 .tituloSection {
-  width: 100% !important;
+  margin-bottom: 100px !important;
+  max-width: 600px; /* Ajusta este valor según tus necesidades */
+  margin: 0 auto; /* Centra el texto */
+  text-align: center;
 }
 
 .containerSolutions{
