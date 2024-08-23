@@ -305,38 +305,44 @@ button {
 
 .tituloService1 {
   font-size: 20px;
-  color: #fd7301;
+  margin-bottom: 40px;
+  color: #1b2140;
   text-transform: uppercase;
 }
 
 .tituloService2 {
   font-size: 20px;
-  color: #21b0fc;
+  margin-bottom: 10px;
+  color: #1b2140;
   text-transform: uppercase;
 }
 
 .tituloService3 {
   font-size: 20px;
-  color: #7dd858;
+  margin-bottom: 10px;
+  color: #1b2140;
   text-transform: uppercase;
 }
 
 .tituloService4 {
   font-size: 20px;
-  color: #21b0fc;
+  margin-bottom: 20px;
+  color: #1b2140;
   text-transform: uppercase;
 }
 
 .tituloService5 {
+  margin-bottom: 20px;
   font-size: 20px;
-  color: #7dd858;
+  color: #1b2140;
   text-transform: uppercase;
 }
 
 .tituloService6 {
+  margin-bottom: 20px;
   font-size: 20px;
   text-transform: uppercase;
-  color: #fd7301;
+  color: #1b2140;
 }
 
 .imgService {
